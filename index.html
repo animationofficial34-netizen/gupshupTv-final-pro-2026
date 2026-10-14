@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Gupshup TV - Random Video Chat</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 3 Sec Logo Animation -->
+<div id="splash">
+  <div class="pill-logo">Gupshup TV</div>
+</div>
+
+<!-- Main App -->
+<div id="app" style="display:none;">
+  <!-- Header -->
+  <header>
+    <div class="pill-logo small">Gupshup TV</div>
+    <div class="online">● 12,847 Online</div>
+  </header>
+
+  <!-- Gender Filter -->
+  <div class="filters">
+    <button class="active">Both</button>
+    <button>Male ♂</button>
+    <button>Female ♀</button>
+  </div>
+
+  <!-- Video Area -->
+  <div class="video-container">
+    <video id="remoteVideo" autoplay playsinline></video>
+    <video id="localVideo" autoplay muted playsinline></video>
+    <div class="searching">Searching...</div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button id="stop" class="stop">Stop</button>
+    <button id="next" class="next">Next ▶</button>
+  </div>
+  
+  <div class="controls2">
+    <button>🎤 Mute</button>
+    <button>📷 Cam Off</button>
+    <button>🔄 Flip</button>
+    <button>🚩 Report</button>
+  </div>
+
+  <!-- Ad Space -->
+  <div class="ad-box">Ad Space - AdSense</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
