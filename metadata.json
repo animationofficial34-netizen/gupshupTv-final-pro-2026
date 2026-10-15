@@ -1,0 +1,12 @@
+{
+  "name": "GupShup TV",
+  "description": "High-performance random video and text chat platform with instant WebRTC P2P matchmaking, audio/video controls, and AdSense policy-compliant layout.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
